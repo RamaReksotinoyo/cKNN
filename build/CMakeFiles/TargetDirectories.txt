@@ -1,0 +1,3 @@
+/Users/ramaido/C/cKNN/build/CMakeFiles/main.dir
+/Users/ramaido/C/cKNN/build/CMakeFiles/edit_cache.dir
+/Users/ramaido/C/cKNN/build/CMakeFiles/rebuild_cache.dir
