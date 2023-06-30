@@ -10,6 +10,12 @@ float manhattan(int x1, int x2, int y1, int y2) {
     return abs(x2 - x1) + abs(y2 - y1);
 }
 
+float minkowski(float x1, float x2, float y1, float y2, int p) {
+    float distance = 0.0;
+    distance = pow(pow(fabs(x2 - x1), p) + pow(fabs(y2 - y1), p), 1.0 / p);
+    return distance;
+}
+
 struct Point_t
 {
     int* label;     

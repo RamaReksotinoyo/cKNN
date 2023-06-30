@@ -21,11 +21,5 @@ int main(void){
 
     printf("The point (%g, %g) belongs to group %d\n", p.x, p.y, result);    
 
-    // Free memory allocated for each label
-    for (int i = 0; i < n; i++) {
-        free(arr[i].label);
-    }
-    free(p.label);
-
     return 0;
 }
